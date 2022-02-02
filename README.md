@@ -10,8 +10,8 @@ Aquí se encuentran los códigos y notebooks estudiados para el curso; el materi
 
 1. Introducción al análisis estructurado.
 	1. Algoritmos y diagramas de flujo de un programa.
-	1. Estructura de la programación modular.
-	1. Sistemas numéricos de punto flotante y cálculo del error numérico.
+	2. Estructura de la programación modular.
+	3. Sistemas numéricos de punto flotante y cálculo del error numérico.
 2. Estructuras básicas de programación.
 	1. Tipos de variables:
 		1. Cadenas de caracteres.
@@ -49,7 +49,7 @@ Aquí se encuentran los códigos y notebooks estudiados para el curso; el materi
 		2. Beneficios de la recursividad.
 		3. Árbol de recursividad.
 5. Programación y visualización de datos
-	3. Introducción a numpy (arreglos)
+	1. Introducción a numpy (arreglos)
 		1. Función array()
 		2. Función ones() y zeros()
 		3. Función linspace()
