@@ -2,12 +2,11 @@
 ## Prof. Fís. Jonathan Urrutia
 --
 
-Este es el repositorio del curso ofertado en la ENCiT (Escuela Nacional de Ciencias de la Tierra) de la UNAM.
+Este es el repositorio del curso ofertado en la ENCiT (Escuela Nacional de Ciencias de la Tierra) de la UNAM (Universidad Nacional Autónma de México).
 
 Aquí se encuentran los códigos y notebooks estudiados para el curso; el material es una segunda iteración del material desarrollado por el [Mtro. Pedro Porras](github-com/PPorras).
 
 
---
 ### Temario (Tentativo)
 
 1. Introducción al análisis estructurado.
