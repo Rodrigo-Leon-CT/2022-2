@@ -1,6 +1,5 @@
 # Herramientas computacionales 2022-2
 ## Prof. Fís. Jonathan Urrutia
---
 
 Este es el repositorio del curso ofertado en la ENCiT (Escuela Nacional de Ciencias de la Tierra) de la UNAM (Universidad Nacional Autónma de México).
 
