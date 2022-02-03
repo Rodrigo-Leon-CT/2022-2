@@ -14,3 +14,9 @@
 #
 
 print( "Hello, World!" )
+
+user_name = input( "What is your name? ")
+print("Hello, ", user_name)
+
+best_friend = input( "What is your bests friend\'s name? ")
+print("Hello, ", best_friend)
