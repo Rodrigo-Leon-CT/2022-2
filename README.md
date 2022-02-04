@@ -3,10 +3,17 @@
 
 Este es el repositorio del curso ofertado en la ENCiT (Escuela Nacional de Ciencias de la Tierra) de la UNAM (Universidad Nacional Autónma de México).
 
-Aquí se encuentran los códigos y notebooks estudiados para el curso; el material es una segunda iteración del material desarrollado por el [Mtro. Pedro Porras](github-com/PPorras).
+Aquí se encuentran los códigos y notebooks estudiados para el curso. Mucho del material es una segunda iteración de los recursos desarrollados por el [Mtro. Pedro Porras](github-com/PPorras).
+
+## Material del curso 
+
+En esta sección se encuentra un desglose del material del curso que se encuentra en este repositorio
+
+1.  Introducción
+	1. Buenas prácticas de programación
 
 
-### Temario (Tentativo)
+## Temario del curso 
 
 1. Introducción al análisis estructurado.
 	1. Algoritmos y diagramas de flujo de un programa.
