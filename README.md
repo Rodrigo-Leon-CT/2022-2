@@ -9,4 +9,12 @@ Los _notebooks_ empleado en este curso son una segunda iteración basada del mat
 
 
 
+--
 
+Propuesta:
+
+30 % ----- Tareas semanales 
+30 % ----- Tareas largas
+20 % ------ Pryecto / Seminario
+10 % ----- invitado Wiki
+10 % ------ invitado COBOL
