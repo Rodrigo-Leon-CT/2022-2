@@ -1,5 +1,5 @@
 # Herramientas computacionales 2022-2
-## Prof. Fís. Jonathan Urrutia
+**Prof. Fís. Jonathan Urrutia**
 
 Este es el repositorio del curso ofertado en la ENCiT (Escuela Nacional de Ciencias de la Tierra) de la UNAM (Universidad Nacional Autónma de México).
 
@@ -7,15 +7,19 @@ Aquí se encuentran los códigos y notebooks estudiados para el curso, así como
 
 Los _notebooks_ empleado en este curso son una segunda iteración basada del material desarrollado por el [Mtro. Pedro Porras](github-com/PPorras).
 
->>>>>>> refs/remotes/origin/main
+## Evaluación
 
+Se llevará a cabo un esquema de aprendizaje continuo con tareas semanales cortas y tareas extensivas; las primeras son de ejercicios cortos mientras que el resto presupone ejercicios más complicados, relacionados con el uso de herramientas matemáticas.
 
---
-
-Propuesta:
-
-30 % ----- Tareas semanales 
-30 % ----- Tareas largas
-20 % ------ Pryecto / Seminario
-10 % ----- invitado Wiki
-10 % ------ invitado COBOL
+<center>
+  
+| Rubro           | Porcentaje |
+|------------------|------------|
+|Tareas semanales | 30 % |
+|Tareas largas    | 30 % |
+| Proyecto Wiki   |  10 % |
+| Proyecto COBOL  |  10 % |
+| Proyecto en equipos o seminario*| 20 % |
+|**Total**|**100%** |
+  
+  </center>
