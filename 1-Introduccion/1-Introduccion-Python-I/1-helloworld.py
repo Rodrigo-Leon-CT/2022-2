@@ -4,7 +4,7 @@
 
 # Este es nuestro primer programa: El '¡Hola, mundo!'
 
-# Cuando escribimos en el código, cualquier cosa despiés de un numeral (hashtag) es 
+# Cuando escribimos en el código, cualquier cosa despiés de un numeral (hashtag) es
 # ignorado por Python. Este tipo de texto se llama 'comentarios' y sirve para dar
 # seguimiento a cualquier elemento de nuestro código y que sea entendido por
 # cualquier otra persona que lo lea.
@@ -15,7 +15,8 @@
 
 print( "Hello, World!" )
 
-user_name = input( "What is your name? ")
+user_name = input( "What is your name? ")  # Nos permite escribir en la terminal y
+                                           # le asigna eso a nuestra variable user_name
 print("Hello, ", user_name)
 
 best_friend = input( "What is your bests friend\'s name? ")
