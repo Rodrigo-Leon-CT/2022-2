@@ -93,8 +93,8 @@ print("ord(s_dog) + ord(num[0]) = ", ord(s_dog) + ord(num[0]))
 # Hagamos una table de los valores que utilizamos con nuestras _cadenas_
 
 print("\tCaracter\tValor\n"+
-        "\t------------------------")
+        "\t" + 25 * "-")                    # Notemos que también pudimos "multiplicar" la cadena, así como la sumamos
 for s in s_dog + num:
-    print("\t", s, "\t\t", ord(s))
-print("\t------------------------")         # Nota que la instrucción que no se
+    print("\t ", s, "\t\t", ord(s))
+print("\t" + 25 * "-")         # Nota que la instrucción que no se
                                             # repite es la que no tiene una tabulación
