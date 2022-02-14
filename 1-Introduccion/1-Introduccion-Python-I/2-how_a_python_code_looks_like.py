@@ -7,7 +7,7 @@
 
 # Para familiarizarnos con Python comentemos este archivo y modifiquémoslo
 
-principal = 1000	# Cantidad inicial
+principal = int(input("Dame un valor inicial de dinero con numeros:\n"))	# Cantidad inicial
 rate = 0.05		# Initial rate
 num_years = 5		# Number of years
  
@@ -16,6 +16,7 @@ while year <= num_years:
 	principal = principal * (1 + rate)
 	print( year, principal)
 	year += 1
+
 
 # El cálculo mostrado con print se muestra en la línea de comando. Si esta información me es útil, 
 # es conveniente ponerla en un archivo de texto (.txt, .dat, .csv)

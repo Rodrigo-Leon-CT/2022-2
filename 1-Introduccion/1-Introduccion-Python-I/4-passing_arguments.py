@@ -4,7 +4,7 @@
 
 # Este es una modificación del 'Hola, Mundo' para poder pasar argumentos directamente al  programa sin necesidad de que nos pregunte uno por uno.
 
-# PAara esto necesitamos usar una función de Python que no viene por default, sin embargo está en una 'biblioteca' la cual podemos llamar.
+# Paara esto necesitamos usar una función de Python que no viene por default, sin embargo está en una 'biblioteca' la cual podemos llamar.
 # si queremos correr este 'script' en la términal podemos poner el siguiente código
 # 	python3 name_of_script.py argumento1 argumento2 
 #

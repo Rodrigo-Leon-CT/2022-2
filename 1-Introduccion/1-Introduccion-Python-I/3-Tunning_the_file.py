@@ -36,9 +36,9 @@ print("\nLet's make the output look better:")
 year = 1
 principal = 1000
 
-print("Year\tPrincipal\n--------------------")
+print("Year\tPrincipal\tRate\n--------------------")
 while year <= num_years:
 	principal = principal * (1 + rate)
-	print("%3d\t %0.2f" % (year, principal))
+	print("%3d\t %0.2f\t%0.5f" % (year, principal,rate))
 	year += 1
 
