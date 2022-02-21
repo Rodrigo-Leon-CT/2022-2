@@ -19,8 +19,8 @@ my_string = ""          # Creemos una cadena vacía que llenaremos poco a poco
 i = 0                   # i es el numero con el que iremos recorriendo los elementos de string
 while i < len(string):  # Mientas nuestro índice sea uno válido string
     num = ord(string[i])
-    if ord('a') <= num and num <= ord('z'):    # Si nuestro caracter está entre las minúsculas
-        num = num - (ord('a') - ord('A'))   # Desplazamos el número la misma distancia que hay entre las mayúsculas y las minúscula
+    if ord('A') <= num and num <= ord('Z'):    # Si nuestro caracter está entre las minúsculas
+        num = num - (ord('A') - ord('a'))   # Desplazamos el número la misma distancia que hay entre las mayúsculas y las minúscula
         my_string = my_string + chr(num)    # char() nos da el caracter en unicode correspondiente, y y lo concatenamos en my_string
     else:
         my_string += string[i]
