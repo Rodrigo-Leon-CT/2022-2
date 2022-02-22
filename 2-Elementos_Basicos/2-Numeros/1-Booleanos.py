@@ -17,9 +17,9 @@ print( 'var_2 = ', var_2, ', es de tipo ', type(var_2))
 print('\nDe entero a booleanos y viceversa:')
 
 print('bool(1) = ', bool(1))
-print('bool(1) = , ', bool(0))
-print('int(True) = , ', int(True) )
-print('int(False) = , ', int(False))
+print('bool(0) = ', bool(0))
+print('int(True) = ', int(True) )
+print('int(False) = ', int(False))
 
 
 # ¿Y esto funciona con strings?
@@ -100,7 +100,6 @@ print( 'var_1 = x <= y  ->  ', var_1, ' y es ', type(var_1) )
 var_1 = x >= y
 print( 'var_1 = x >= y  ->  ', var_1, ' y es ', type(var_1) )
 
-
 # Finalmente, con los booleanos podemos hacer operaciones lógicas:
 
 # Asignamos dos valores distintos
@@ -120,3 +119,4 @@ print('not test_1 = ', not test_1)
 print('test_1 and test_2 = ', test_1 and test_2)
 print('test_1 or test_2 = ', test_1 or test_2)
 print('not test_1 and test_2 = ', not test_1 and test_2)
+print(  8 < 8 or 8 == 8, 8 <= 8)
