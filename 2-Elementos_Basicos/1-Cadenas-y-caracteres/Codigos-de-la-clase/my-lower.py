@@ -1,14 +1,12 @@
-#! 2-my-upper.py
+#! 2-my-lower.py
+# Jonathan Urrutia
+# 2022-02-21
+# ENCiT, Herramientas computacionales I
 #
-# En códigos anteriores vimos que hay unas funciones que aplican sobre cadenas
-# que se escriben con la sintexis
-#       <cadena>.<funcion>(<argumentos>)
-# auqnue esto es muy útil, es bueno entender cómo funciona el algoritmo
-# para realizar procesos
-
-# Escribiremos una versión propioa de la función que cambia todas
-# las letras a mayúsculas, sacando privecho del Unicode
+# Modificación de ../2-my.upper.py para simular a la operación
 #
+#       string.lower()
+# que cambia mayúsculas por minúsculas
 
 string = input("Dame una cadena:")
 
@@ -19,11 +17,14 @@ my_string = ""          # Creemos una cadena vacía que llenaremos poco a poco
 i = 0                   # i es el numero con el que iremos recorriendo los elementos de string
 while i < len(string):  # Mientas nuestro índice sea uno válido string
     num = ord(string[i])
-    if ord('A') <= num and num <= ord('Z'):    # Si nuestro caracter está entre las minúsculas
+    if ord('A') <= num and num <= ord('Z'):    # Si nuestro caracter está entre las mayúsculas
         num = num - (ord('A') - ord('a'))   # Desplazamos el número la misma distancia que hay entre las mayúsculas y las minúscula
         my_string = my_string + chr(num)    # char() nos da el caracter en unicode correspondiente, y y lo concatenamos en my_string
+    elif ord('À') <= num and num <= ord('Ü'):  # Por como está el ´unicode, me permite hacer este cambbio u extener el my_lower_py a estos caracteres
+        num = num - (ord('À') - ord('à'))
+        my_string = my_string + chr(num)
     else:
-        my_string += string[i]
+        my_string += string[i]              # Si es un caracter de otro tipo, sólo lo ponemos
     i += 1              # Pasamos al siguiente caracter
 
 print(my_string)
